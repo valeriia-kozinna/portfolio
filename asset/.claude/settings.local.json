@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node screenshot.js:*)",
+      "Bash(node -e:*)",
+      "Bash(node verify.js:*)",
+      "Bash(git stash:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nspread mobile hero content to fill viewport, matching design spec\n\nCo-Authored-By: Claude \\(claude-opus-4-6\\) <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)"
+    ]
+  }
+}
