@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio of Valeriia Kozinna - Graphic Designer & Illustrator with over 4 years of professional experience. Visual identities, print and digital design, illustrations and graphic solutions.">
     <meta name="author" content="Valeriia Kozinna">
+    <link rel="canonical" href="https://valeriia-kozinna.github.io/portfolio/">
     <meta property="og:title" content="Valeriia Kozinna — Graphic Designer & Illustrator">
     <meta property="og:description" content="Portfolio showcasing graphic design, illustrations, logos, and visual identities.">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="asset/about-me.png">
+    <meta property="og:url" content="https://valeriia-kozinna.github.io/portfolio/">
+    <meta property="og:image" content="https://valeriia-kozinna.github.io/portfolio/asset/about-me.png">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Valeriia Kozinna — Graphic Designer & Illustrator">
+    <meta name="twitter:description" content="Portfolio showcasing graphic design, illustrations, logos, and visual identities.">
+    <meta name="twitter:image" content="https://valeriia-kozinna.github.io/portfolio/asset/about-me.png">
     <title>Valeriia Kozinna — Graphic Designer & Illustrator</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect fill='%23FF0000' width='32' height='32' rx='4'/><text x='16' y='22' font-family='Inter,sans-serif' font-size='18' font-weight='900' fill='white' text-anchor='middle'>VK</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +33,7 @@
     </div>
 
     <header class="header">
-        <button class="header__hamburger" id="hamburger-btn" aria-label="Menu">
+        <button class="header__hamburger" id="hamburger-btn" aria-label="Menu" aria-controls="mobile-menu" aria-expanded="false">
             <span></span>
             <span></span>
             <span></span>
@@ -135,7 +140,9 @@
         </div>
 
         <div class="projects__grid" id="projects-grid">
-            <div class="projects__card" data-category="logos">
+            <div class="projects__card"
+                 data-category="logos"
+                 data-images='[{"src":"asset/logos/coffeina.png","label":"Logo","alt":"Coffeina Logo"},{"src":"asset/logos/coffeina-sign.jpg","label":"Sign","alt":"Coffeina - Storefront Sign"},{"src":"asset/logos/coffeina-packaging.jpg","label":"Packaging","alt":"Coffeina - Ground Coffee Packaging"}]'>
                 <div class="projects__card-image">
                     <img src="asset/logos/coffeina.png" alt="Coffeina Logo" loading="lazy">
                 </div>
@@ -143,39 +150,63 @@
             </div>
             <div class="projects__card"
                  data-category="logos"
-                 data-images='[{"src":"asset/logos/francy.png","label":"Logo","alt":"Francy Logo"},{"src":"asset/print-ads/francy-ad.png","label":"Ad","alt":"Francy - New Collection Ad"},{"src":"asset/print-ads/francy-bag.png","label":"Bag","alt":"Francy - Bag Design"},{"src":"asset/print-ads/francy-label.png","label":"Label","alt":"Francy - Label Design"},{"src":"asset/print-ads/francy-mockup.png","label":"Mockup","alt":"Francy - Brand Mockup"}]'>
+                 data-images='[{"src":"asset/logos/francy.png","label":"Logo","alt":"Francy Logo"},{"src":"asset/print-ads/francy-mockup.png","label":"Mockup","alt":"Francy - Brand Mockup"},{"src":"asset/logos/francy-sign.jpg","label":"Sign","alt":"Francy - Storefront Sign"},{"src":"asset/print-ads/francy-bag.png","label":"Bag","alt":"Francy - Bag Design"},{"src":"asset/print-ads/francy-label.png","label":"Label","alt":"Francy - Label Design"},{"src":"asset/print-ads/francy-ad.png","label":"Ad","alt":"Francy - New Collection Ad"}]'>
                 <div class="projects__card-image">
                     <img src="asset/logos/francy.png" alt="Francy Logo" loading="lazy">
                 </div>
                 <button class="projects__card-more">more</button>
             </div>
-            <div class="projects__card" data-category="logos">
-                <div class="projects__card-image">
-                    <img src="asset/logos/frame-496.png" alt="Logo Design" loading="lazy">
-                </div>
-                <button class="projects__card-more">more</button>
-            </div>
-            <div class="projects__card" data-category="logos">
+            <div class="projects__card"
+                 data-category="logos"
+                 data-images='[{"src":"asset/logos/golden-peacock.png","label":"Logo","alt":"Golden Peacock Logo"},{"src":"asset/logos/golden-peacock-mockup.jpg","label":"In Context","alt":"Golden Peacock - Golf Bag Mockup"}]'>
                 <div class="projects__card-image">
                     <img src="asset/logos/golden-peacock.png" alt="Golden Peacock Logo" loading="lazy">
                 </div>
                 <button class="projects__card-more">more</button>
             </div>
-            <div class="projects__card" data-category="logos">
+            <div class="projects__card"
+                 data-category="logos"
+                 data-images='[{"src":"asset/logos/krolowa.png","label":"Logo","alt":"Królowa Trwałej Logo"},{"src":"asset/logos/krolowa-sign.jpg","label":"Sign","alt":"Królowa Trwałej - Storefront Sign"}]'>
                 <div class="projects__card-image">
                     <img src="asset/logos/krolowa.png" alt="Królowa Trwałej Logo" loading="lazy">
                 </div>
                 <button class="projects__card-more">more</button>
             </div>
-            <div class="projects__card" data-category="logos">
+            <div class="projects__card"
+                 data-category="logos"
+                 data-images='[{"src":"asset/logos/la-pasta.jpg","label":"Logo","alt":"La Pasta Logo"},{"src":"asset/logos/la-pasta-sign.jpg","label":"Sign","alt":"La Pasta - Storefront Sign"}]'>
                 <div class="projects__card-image">
                     <img src="asset/logos/la-pasta.jpg" alt="La Pasta Logo" loading="lazy">
                 </div>
                 <button class="projects__card-more">more</button>
             </div>
-            <div class="projects__card" data-category="logos">
+            <div class="projects__card"
+                 data-category="logos"
+                 data-images='[{"src":"asset/logos/tsuru.jpg","label":"Logo","alt":"Tsuru Art Studio Logo"},{"src":"asset/logos/tsuru-sign.jpg","label":"In Context","alt":"Tsuru Art Studio - Street Sign Mockup"}]'>
+                <div class="projects__card-image">
+                    <img src="asset/logos/tsuru.jpg" alt="Tsuru Art Studio Logo" loading="lazy">
+                </div>
+                <button class="projects__card-more">more</button>
+            </div>
+            <div class="projects__card"
+                 data-category="logos"
+                 data-images='[{"src":"asset/logos/sokol.jpg","label":"Logo","alt":"Sokół Logo"},{"src":"asset/logos/sokol-tshirt.jpg","label":"In Context","alt":"Akademia Piłkarska Sokół - T-Shirt Mockup"}]'>
                 <div class="projects__card-image">
                     <img src="asset/logos/sokol.jpg" alt="Sokół Logo" loading="lazy">
+                </div>
+                <button class="projects__card-more">more</button>
+            </div>
+            <div class="projects__card" data-category="logos">
+                <div class="projects__card-image projects__card-image--contain">
+                    <img src="asset/logos/finesse.jpg" alt="Finesse Blinds & Installations Logo" loading="lazy">
+                </div>
+                <button class="projects__card-more">more</button>
+            </div>
+            <div class="projects__card"
+                 data-category="logos"
+                 data-images='[{"src":"asset/logos/frame-496.png","label":"Logo","alt":"Motorhub Logo"},{"src":"asset/logos/motorhub-flags.jpg","label":"In Context","alt":"Motorhub - Flags Mockup"}]'>
+                <div class="projects__card-image">
+                    <img src="asset/logos/frame-496.png" alt="Motorhub Logo" loading="lazy">
                 </div>
                 <button class="projects__card-more">more</button>
             </div>
@@ -204,6 +235,46 @@
                 </div>
                 <button class="projects__card-more">more</button>
             </div>
+            <div class="projects__card"
+                 data-category="illustrations"
+                 data-images='[{"src":"asset/illustrations/kuchnia/illustration.jpg","label":"Artwork","alt":"Kuchnia dla najmłodszych - Children&#39;s Cookbook Cover"},{"src":"asset/illustrations/kuchnia/book-mockup.jpg","label":"In Context","alt":"Kuchnia dla najmłodszych - Book Mockup"}]'>
+                <div class="projects__card-image projects__card-image--contain">
+                    <img src="asset/illustrations/kuchnia/illustration.jpg" alt="Kuchnia dla najmłodszych - Children's Cookbook Cover" loading="lazy">
+                </div>
+                <button class="projects__card-more">more</button>
+            </div>
+            <div class="projects__card" data-category="illustrations">
+                <div class="projects__card-image projects__card-image--contain">
+                    <img src="asset/illustrations/kotygoroshko/illustration.jpg" alt="Kotyhoroshko - Ukrainian Folk Tale Comic Illustration" loading="lazy">
+                </div>
+                <button class="projects__card-more">more</button>
+            </div>
+            <div class="projects__card" data-category="illustrations">
+                <div class="projects__card-image projects__card-image--contain">
+                    <img src="asset/illustrations/zirka/illustration.jpg" alt="Zirka - Ukrainian Folk Illustration" loading="lazy">
+                </div>
+                <button class="projects__card-more">more</button>
+            </div>
+            <div class="projects__card"
+                 data-category="illustrations"
+                 data-images='[{"src":"asset/illustrations/clown/illustration.jpg","label":"Artwork","alt":"Where Is Your Smile? - Poster Illustration"},{"src":"asset/illustrations/clown/mockup.jpg","label":"In Context","alt":"Where Is Your Smile? - Poster Mockup"}]'>
+                <div class="projects__card-image projects__card-image--contain">
+                    <img src="asset/illustrations/clown/illustration.jpg" alt="Where Is Your Smile? - Poster Illustration" loading="lazy">
+                </div>
+                <button class="projects__card-more">more</button>
+            </div>
+            <div class="projects__card" data-category="illustrations">
+                <div class="projects__card-image projects__card-image--contain">
+                    <img src="asset/illustrations/comics/illustration.jpg" alt="Comic-Style Character Illustration" loading="lazy">
+                </div>
+                <button class="projects__card-more">more</button>
+            </div>
+            <div class="projects__card" data-category="illustrations">
+                <div class="projects__card-image projects__card-image--contain">
+                    <img src="asset/illustrations/vyshyvanka/illustration.jpg" alt="Ukrainian Embroidery Portrait Illustration" loading="lazy">
+                </div>
+                <button class="projects__card-more">more</button>
+            </div>
 
             <div class="projects__card"
                  data-category="social-media"
@@ -226,6 +297,12 @@
                  data-images='[{"src":"asset/social-media/bottle-design.jpg","label":"Design","alt":"Bottle - Product Design"},{"src":"asset/social-media/bus-station.jpg","label":"In Context","alt":"Bottle - Bus Station Advertisement"}]'>
                 <div class="projects__card-image projects__card-image--contain">
                     <img src="asset/social-media/bottle-design.jpg" alt="Bottle - Product Design" loading="lazy">
+                </div>
+                <button class="projects__card-more">more</button>
+            </div>
+            <div class="projects__card" data-category="social-media">
+                <div class="projects__card-image projects__card-image--contain">
+                    <img src="asset/social-media/toner.jpg" alt="Insta Color Toner - Social Media Graphic" loading="lazy">
                 </div>
                 <button class="projects__card-more">more</button>
             </div>
